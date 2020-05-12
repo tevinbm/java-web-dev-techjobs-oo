@@ -10,7 +10,7 @@ public class JobTest {
     public Job job1, job2, job3, job4;
 
     @Before
-    public void SetJobObj(){
+    public void setJobObj(){
         job1 = new Job();
         job2 = new Job();
         job3 = new Job("Product tester", new Employer("ACME"), new Location("Desert"), new PositionType("Quality Control"), new CoreCompetency("Persistence"));
